@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Zuiko Studio</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    
+    <!-- FONTS -->
+    <!-- Fonts - Brand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+    <!-- Fonts - Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Fonts - Title -Những lời yêu thương -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="index.html"> <h2>Zuiko Studio <span>Photography</span></h2> </a> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href=".html">Home</a></li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Portfolio <i class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="event.html" class="dropdown-item"><span>Event</span></a></li>
+                            <li><a href="wedding.html" class="dropdown-item"><span>Wedding</span></a></li>
+                            <li><a href="interior.html" class="dropdown-item"><span>Interior</span></a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Slider -->
+    <header class="header slider-fade">
+            <div class="owl-carousel owl-theme">
+                <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+                <div class="item bg-img" data-overlay-dark="3" data-background="img/slider/1.jpg">
+                    <div class="v-middle caption">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Welcome to !!!</h4>
+                                    <h1>Zuiko Studio</h1>
+                                    <p>Nhiếp ảnh là khoảnh khắc</p> 
+                                    <a href="wedding.html" class="button-primary">Portfolio</a> <a href="tel:+849 1717 3993" class="button-tersiyer">Phone</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item bg-img" data-overlay-dark="3" data-background="img/slider/3.jpg">
+                    <div class="v-middle caption">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Welcome to !!!</h4>
+                                    <h1>Zuiko Studio</h1>
+                                    <p>Nhiếp ảnh là khoảnh khắc</p> 
+                                    <a href="wedding.html" class="button-primary">Portfolio</a> <a href="tel:+849 1717 3993" class="button-tersiyer">Phone</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item bg-img" data-overlay-dark="2" data-background="img/slider/2.jpg">
+                    <div class="v-middle caption">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Welcome to !!!</h4>
+                                    <h1>Zuiko Studio</h1>
+                                    <p>Nhiếp ảnh là khoảnh khắc</p> <a href="#" class="button-primary">Portfolio</a> <a href="#" class="button-tersiyer">Phone</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!-- About section -->
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
+                    <h2 class="section-title">Zuiko Studio</h2>
+                    <p>
+                        Zuiko Studio là một thương hiệu năng động trong lĩnh vực nhiếp ảnh, chuyên cung cấp các dịch vụ chụp ảnh chuyên nghiệp. Với đội ngũ nhiếp ảnh gia tài năng và trang thiết bị hiện đại, chúng tôi cam kết mang đến cho khách hàng những bức ảnh sống động, đậm chất cá nhân và đầy cảm xúc. Hãy đồng hành cùng Zuiko Studio để ghi lại những khoảnh khắc đáng nhớ trong cuộc sống của bạn!
+                    </p>
+                    <ul class="list-unstyled about-list mb-30">
+                        <li>
+                            <div class="about-list-icon"> <span class="ti-check"></span> </div>
+                            <div class="about-list-text">
+                                <p>7 năm kinh nghiệm</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="about-list-icon"> <span class="ti-check"></span> </div>
+                            <div class="about-list-text">
+                                <p>Hơn 260 tác phẩm nghệ thuật</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="about-list-icon"> <span class="ti-check"></span> </div>
+                            <div class="about-list-text">
+                                <p>100% Khách Hàng hài lòng</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <hr class="border-2">
+                    <div class="about-bottom"> <img src="img/signature.svg" alt="" class="image about-signature">
+                        <div class="about-name-wrapper">
+                            <div class="about-name-dark">Đông Quân</div>
+                            <div class="about-rol">- Founder -</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-1 animate-box" data-animate-effect="fadeInUp">
+                    <div class="about-img">
+                        <div class="img"> <img src="img/about.jpg" class="img-fluid" alt=""> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services section -->
+    <section class="services section-padding bg-blck">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mb-30">
+                    <!-- <h2 class="section-title"><span>Nghệ thuật !!!</span></h2> -->
+                    <h2 class="" style="color: #f2f2f2"><span>Nghệ thuật !!!</span></h2>
+                    <hr class="border-1">
+                    <p class="section-title2">
+                        Không phải là ánh trăng lừa dối, chúng tôi mang đến sự chân thật nhất
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="img portfolio-masonry-wrapper portfolio-masonry-item-img-link">
+                        <a href="event.html"><img src="img/services/Zuiko-studio-event-banner.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-5 valign">
+                    <div class="content">
+                        <div class="cont">
+                            <h3 style="color: #f2f2f2">Event</h3>
+                            <p>
+                                Sự kiện là dịp quan trọng, với không gian trang hoàng lộng lẫy, ánh đèn lung linh và không khí phấn khích. Khách mời thưởng thức món ăn ngon và tham gia vào các hoạt động cộng đồng, tạo nên bầu không khí ấm áp và đầy ý nghĩa.
+                            </p> 
+                            <a href="event.html" class="button-tersiyer">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-90">
+                <div class="col-md-5 order2 valign">
+                    <div class="content">
+                        <div class="cont">
+                            <h3 style="color: #f2f2f2">Wedding</h3>
+                            <p>
+                                Ngày trọng đại của đôi uyên ương, với không gian lộng lẫy, hoa và ánh đèn lung linh. Mọi người đang thưởng thức không gian tràn ngập tình yêu và tạo ra những khoảnh khắc đáng nhớ.
+                            </p> 
+                            <a href="wedding.html" class="button-tersiyer">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 order1">
+                    <div class="img portfolio-masonry-wrapper portfolio-masonry-item-img-link">
+                        <a href="wedding.html"><img src="img/services/Zuiko-studio-wedding-banner.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-90">
+                <div class="col-md-7">
+                    <div class="img portfolio-masonry-wrapper portfolio-masonry-item-img-link">
+                        <a href="interior.html"><img src="img/services/Zuiko-studio-interior-banner.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-5 valign">
+                    <div class="content">
+                        <div class="cont">
+                            <h3 style="color: #f2f2f2">Interior</h3>
+                            <p>
+                                Không gian sống được thiết kế tinh tế và chuyên nghiệp, nơi kết hợp giữa sự tiện nghi và thẩm mỹ. Các đồ nội thất được bài trí hài hòa và sáng tạo, tạo nên không gian ấm cúng và đẳng cấp.
+                            </p> 
+                            <a href="interior.html" class="button-tersiyer">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- News section -->
+    <section class="blog section-padding d-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mb-30">
+                    <h2 class="section-title">Latest News</h2>
+                    <hr class="border-2">
+                    <p class="section-title2">Quisque sed tellus nullam biben the volutpat dignissim pretium.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 owl-carousel owl-theme">
+                    <div class="news">
+                        <figure><img src="img/blog/4.jpeg" alt="" class="img-fluid"></figure>
+                        <div class="caption">
+                            <h6>Resources</h6>
+                            <h4><a href="post.html">Cosina announces its fastest full-frame lens, the Nokton 50mm</a></h4>
+                            <p>Photographers viverra tristique duis vitae diam the neque nivamus aestan ateuene artines duru setlie suscipe the fermen.</p>
+                            <hr class="border-2">
+                            <div class="info-wrapper">
+                                <div class="more"><a href="post.html" class="link-btn" tabindex="0">Xem thêm</a></div>
+                                <div class="date">20 December 2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news left">
+                        <figure><img src="img/blog/3.jpeg" alt="" class="img-fluid"></figure>
+                        <div class="caption">
+                            <h6>Lens News</h6>
+                            <h4>Which Camera Will Survive? Sony a1, Nikon Z9 and Canon R3</h4>
+                            <p>Photographers viverra tristique duis vitae diam the neque nivamus aestan ateuene artines duru setlie suscipe the fermen.</p>
+                            <hr class="border-2">
+                            <div class="info-wrapper">
+                                <div class="more"><a href="post.html" class="link-btn" tabindex="0">Xem thêm</a></div>
+                                <div class="date">18 December 2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news">
+                        <figure><img src="img/blog/2.jpeg" alt="" class="img-fluid"></figure>
+                        <div class="caption">
+                            <h6>Mobile</h6>
+                            <h4><a href="post.html">The camera components inside the iPhone 11 Pro Max</a></h4>
+                            <p>Photographers viverra tristique duis vitae diam the neque nivamus aestan ateuene artines duru setlie suscipe the fermen.</p>
+                            <hr class="border-2">
+                            <div class="info-wrapper">
+                                <div class="more"><a href="post.html" class="link-btn" tabindex="0">Xem thêm</a></div>
+                                <div class="date">16 December 2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news left">
+                        <figure><img src="img/blog/1.jpeg" alt="" class="img-fluid"></figure>
+                        <div class="caption">
+                            <h6>Resources</h6>
+                            <h4><a href="post.html">Fujifilm's new Instax Mini Evo Hybrid is an instant camera</a></h4>
+                            <p>Photographers viverra tristique duis vitae diam the neque nivamus aestan ateuene artines duru setlie suscipe the fermen.</p>
+                            <hr class="border-2">
+                            <div class="info-wrapper">
+                                <div class="more"><a href="post.html" class="link-btn" tabindex="0">Xem thêm</a></div>
+                                <div class="date">14 December 2024</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Gallery -->
+    <section class="section-padding bg-blck d-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 text-left">
+                    <h2 class="section-title"><span>My Works</span></h2>
+                    <hr class="border-1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-left">
+                    <ul class="gallery-filter">
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".personal">Personal</li>
+                        <li data-filter=".wedding">Wedding</li>
+                        <li data-filter=".event">Event</li>
+                        <li data-filter=".fashion">Fashion</li>
+                        <li data-filter=".product">Product</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row gallery-items">
+                <div class="col-md-4 gallery-masonry-wrapper single-item wedding">
+                    <a href="img/works/w2.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="img/works/w2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                            <div class="gallery-masonry-item-content">
+                                <div class="gallery-masonry-item-category">Wedding</div>
+                                <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-masonry-wrapper single-item personal">
+                    <a href="img/works/p1.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="img/works/p1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                            <div class="gallery-masonry-item-content">
+                                <div class="gallery-masonry-item-category">Personal</div>
+                                <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-masonry-wrapper single-item event">
+                    <a href="img/works/e1.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="img/works/e1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                            <div class="gallery-masonry-item-content">
+                                <div class="gallery-masonry-item-category">Event</div>
+                                <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-masonry-wrapper single-item personal">
+                    <a href="img/works/p2.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="img/works/p2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                            <div class="gallery-masonry-item-content">
+                                <div class="gallery-masonry-item-category">Personal</div>
+                                <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-masonry-wrapper single-item event">
+                    <a href="img/works/e2.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="img/works/e2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                            <div class="gallery-masonry-item-content">
+                                <div class="gallery-masonry-item-category">Event</div>
+                                <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-masonry-wrapper single-item wedding">
+                    <a href="img/works/w1.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="img/works/w1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                            <div class="gallery-masonry-item-content">
+                                <div class="gallery-masonry-item-category">Wedding</div>
+                                <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-masonry-wrapper single-item fashion">
+                    <a href="img/works/f1.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="img/works/f1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                            <div class="gallery-masonry-item-content">
+                                <div class="gallery-masonry-item-category">Fashion</div>
+                                <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-masonry-wrapper single-item product">
+                    <a href="img/works/p3.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="img/works/p3.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                            <div class="gallery-masonry-item-content">
+                                <div class="gallery-masonry-item-category">Product</div>
+                                <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-masonry-wrapper single-item fashion">
+                    <a href="img/works/f2.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="img/works/f2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                            <div class="gallery-masonry-item-content">
+                                <div class="gallery-masonry-item-category">Fashion</div>
+                                <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testiominals -->
+    <section class="testimonials">
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/banner/2.jpg" data-overlay-dark="3">
+            <div class="container">
+                <div class="row">
+                    <!-- Work together -->
+                    <div class="col-md-6 mb-30">
+                        <h5>Những lời yêu thương từ Khách Hàng !</h5> <a href="contact.html" class="button-tersiyer">Contact Zuiko Studio</a>
+                    </div>
+                    <!-- Testiominals -->
+                    <div class="col-md-5 offset-md-1">
+                        <div class="testimonials-box">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item"> <span class="quote"><img src="img/quot.png" alt=""></span>
+                                    <p class="v-border">
+                                        Tôi rất hài lòng với dịch vụ nhiếp ảnh của bạn! Bức ảnh của bạn đã tạo ra một bầu không khí rất tuyệt vời và thể hiện được cảm xúc chân thực.
+                                    </p>
+                                    <div class="info">
+                                        <div class="author-img"> <img src="img/team/Zuiko-studio-review-02.jpg" alt=""> </div>
+                                        <div class="cont">
+                                            <h6>Anh Long</h6> <span>Nhân viên văn phòng</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item"> <span class="quote">
+                                        <img src="img/quot.png" alt="">
+                                    </span>
+                                    <p class="v-border">
+                                        Quân quả thực là một nhiếp ảnh gia rất nhiệt tình và đam mê. Anh ấy luôn mang đến cho dự án sự tận tụy và chuyên nghiệp, làm cho mỗi bức ảnh trở nên đặc biệt và sống động hơn bao giờ hết.
+                                    </p>
+                                    <div class="info">
+                                        <div class="author-img"> <img src="img/team/Zuiko-studio-review-01.jpg" alt=""> </div>
+                                        <div class="cont">
+                                            <h6>Chị Loan</h6> <span>Nội trợ</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients -->
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="owl-carousel owl-theme">
+                        <div class="clients-logo image-container">
+                            <a href="#0"><img src="img/clients/1.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo image-container">
+                            <a href="#0"><img src="img/clients/2.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo image-container">
+                            <a href="#0"><img src="img/clients/3.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo image-container">
+                            <a href="#0"><img src="img/clients/4.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo image-container">
+                            <a href="#0"><img src="img/clients/5.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo image-container">
+                            <a href="#0"><img src="img/clients/6.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer clearfix" data-overlay-darkgray="8">
+        <div class="container">
+            <!-- First footer -->
+            <div class="first-footer">
+                <div class="row">
+                    <div class="col-md-6 widget-area">
+                        <h3>Một khảnh khắc, vô vàn cảm xúc</h3>
+                        <p>Cùng Zuiko Studio lưu trữ nó ngay nhé !</p>
+                    </div>
+                    <div class="col-md-6 widget-area newsletter-form">
+                        <form>
+                            <input type="email" name="email" placeholder="Enter Email Address" required>
+                            <button>Subscribe Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Second footer -->
+            <div class="second-footer">
+                <div class="row">
+                    <div class="col-md-4 widget-area">
+                        <div class="widget clearfix">
+                            <div class="footer-logo"> <img class="img-fluid" src="img/logo.png" alt=""> </div>
+                            <div class="widget-text">
+                                <p>Nhiếp ảnh là khoảnh khắc</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 widget-area">
+                        <div class="widget clearfix usful-links">
+                            <h3 class="widget-title">Quick Links</h3>
+                            <ul>
+                                <li><a href="event.html">Event</a></li>
+                                <li><a href="wedding.html">Wedding</a></li>
+                                <li><a href="interior.html">Interior</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 widget-area">
+                        <div class="widget clearfix usful-links">
+                            <h3 class="widget-title">Contact</h3>
+                            <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1">
+                                <div class="featured-icon">
+                                    <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-xs"> <i class="ti-mobile"></i> </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-desc">
+                                        <p><a href="tel:+849 1717 3993">09 1717 3993</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1">
+                                <div class="featured-icon">
+                                    <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-xs"> <i class="ti-email"></i> </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-desc">
+                                        <p><a href="mailto:zuikostudiowedding@gmail.com">zuikostudiowedding@gmail.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1">
+                                <div class="featured-icon">
+                                    <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-xs"> <i class="ti-location-pin"></i> </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-desc">
+                                        <p><a href="https://maps.app.goo.gl/nekLizeXskmcnDAm7">Sun Avenue, 28 Mai Chí Thọ, An Phú, Q2</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom footer -->
+            <div class="bottom-footer-text">
+                <div class="row copyright">
+                    <div class="col-md-8">
+                        <p class="mb-0">Copyright © 2024 by <a href="#">Zuiko Studio</a>. All rights reserved | Designed by HK</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="social-icons">
+                            <ul class="list-inline">
+                                <li><a targer=_blank href="https://www.facebook.com/profile.php?id=61558792560209"><i class="ti-facebook"></i></a></li>
+                                <li><a targer=_blank href="https://flickr.com/photos/dongquan"><i class="ti-"></i></a></li>
+                                <li><a targer=_blank href="https://flickr.com/photos/dongquan"><i class="ti-flickr"></i></a></li>
+                                <li><a targer=_blank href="https://maps.app.goo.gl/nekLizeXskmcnDAm7"><i class="ti-map"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
