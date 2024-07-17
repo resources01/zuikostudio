@@ -3825,7 +3825,7 @@ button.mfp-arrow {
   z-index: 1;
 }
 [data-overlay-dark]:before {
-  background: #000;
+  background: #00000050;
 }
 [data-overlay-darkgray]:before {
   background: #1b1b1b;
