@@ -223,7 +223,33 @@ $(function() {
         , preloader: false
         , fixedContentPos: false
     });
+    // MagnificPopup-Slideshow HK
+    $(".img-zoom").magnificPopup({
+        type: "image",
+        closeOnContentClick: true,
+        mainClass: "mfp-fade",
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0, 1]
+        },
+        callbacks: {
+            open: function() {
+                // Start autoplaying after 3 seconds
+                setTimeout(function() {
+                    $(".img-zoom").magnificPopup("next");
+                    autoplay();
+                }, 3000);
+            }
+        }
+    });
     
+    function autoplay() {
+        setInterval(function() {
+            $(".img-zoom").magnificPopup("next");
+        }, 3000);
+    }
+    // End-MagnificPopup-Slideshow
     
     //  Scroll back to top
     var progressPath = document.querySelector('.progress-wrap path');
