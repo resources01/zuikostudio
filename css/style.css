@@ -304,6 +304,7 @@ input[type="submit"]:hover {
 .bg-img {
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50%;
 }
 .bg-fixed {
     background-attachment: local;
@@ -932,6 +933,7 @@ hr.border-2 {
     animation-delay: .4s;
     color: #fff;
     font-weight: 100;
+    word-spacing: 10px;
 }
 .header .caption p {
     font-size: 16px;
@@ -2700,7 +2702,7 @@ button.mfp-arrow {
 
 /* ======= Clients style ======= */
 .clients {
-    background-color: #1b1b1b;
+    background-color: #141414;
 }
 .clients .owl-carousel {
     margin: 15px 0;
@@ -3230,7 +3232,7 @@ button.mfp-arrow {
 
 /* ======= Footer style ======= */
 .footer {
-    background-image: url(../img/banner/1.jpg);
+    background-image: url(../img/banner/Zuiko-studio-footer-background.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
