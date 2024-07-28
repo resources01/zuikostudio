@@ -927,13 +927,14 @@ hr.border-2 {
     margin-bottom: 20px;
     font-family: "EB Garamond", serif;
     font-size: 50px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     line-height: 1.2em;
     -webkit-animation-delay: .4s;
     animation-delay: .4s;
     color: #fff;
     font-weight: 100;
-    word-spacing: 10px;
+    /* word-spacing: 10px; */
+    letter-spacing: 4px;
 }
 .header .caption p {
     font-size: 16px;
