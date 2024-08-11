@@ -520,7 +520,7 @@ hr.border-2 {
 
 /* ======= Section style ======= */
 .section-padding {
-    padding: 120px 0;
+    padding: 60px 0;
 }
 .section-padding2 {
     padding: 0 0 120px 0;
@@ -3242,6 +3242,17 @@ button.mfp-arrow {
 .footer-logo {
     width: 150px;
     margin-bottom: 20px;
+    font-family: "EB Garamond", serif;
+}
+.footer-logo-text {
+    color: #fff;
+    font-size: 20px;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    /* line-height: 1.25em; */
+    margin: 0 0 20px 0;
+    letter-spacing: 3px;
+    
 }
 .footer .widget .widget-title {
     font-weight: 600;
